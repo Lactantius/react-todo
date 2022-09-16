@@ -25,7 +25,7 @@ function NewTodoForm({ add }: TodoFormArgs): JSX.Element {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    add(formData);
+    add(formData.text);
     setFormData(INITIAL_FORM_DATA);
   };
 
