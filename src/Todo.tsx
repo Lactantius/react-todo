@@ -10,7 +10,7 @@ interface TodoArgs {
 function Todo({ text, id, remove }: TodoArgs): JSX.Element {
   return (
     <div className="Todo" id={id}>
-      <p>{text}</p>
+      <span>{text}</span>
       <button onClick={() => remove(id)}>X</button>
     </div>
   );

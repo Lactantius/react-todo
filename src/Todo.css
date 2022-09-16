@@ -1,3 +1,12 @@
 .Todo {
   display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.Todo button {
+  color: white;
+  background-color: #e86624;
+  border: none;
+  border-radius: 5px;
 }

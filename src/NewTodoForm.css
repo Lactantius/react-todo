@@ -1,3 +1,22 @@
 .NewTodoForm {
   display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.NewTodoForm label {
+  font-size: 1.2rem;
+}
+
+.NewTodoForm input {
+  font-size: 1.2rem;
+}
+
+.NewTodoForm button {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #1448cc;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
