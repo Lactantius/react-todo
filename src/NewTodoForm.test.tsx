@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import App from "./App";
+import NewTodoForm from "./NewTodoForm";
 
 it("renders", () => {
-  render(<App />);
+  render(<NewTodoForm />);
 });
