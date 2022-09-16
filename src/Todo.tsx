@@ -1,7 +1,13 @@
 import React from "react";
 import "./Todo.css";
 
-function Todo({ text, id, remove }): JSX.Element {
+interface TodoArgs {
+  text: string;
+  id: string;
+  remove: Function;
+}
+
+function Todo({ text, id, remove }: TodoArgs): JSX.Element {
   return (
     <div className="Todo" id={id}>
       <p>{text}</p>

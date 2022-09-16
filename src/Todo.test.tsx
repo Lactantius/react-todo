@@ -3,5 +3,5 @@ import { render } from "@testing-library/react";
 import Todo from "./Todo";
 
 it("renders", () => {
-  render(<Todo />);
+  render(<Todo text="test" id="12345" remove={() => null} />);
 });
